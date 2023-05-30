@@ -1,0 +1,277 @@
+/*body{
+    justify-content: center;
+    align-items: center;
+
+}*/
+.nav_tab {
+    display: flex;
+    flex-direction: column-reverse;
+}
+    .logo{
+        display: flex;
+        justify-content: center;
+        padding-top:3%;
+    }
+    .logo img{
+        width: 30%;
+        margin: 0;
+    }
+.title{        
+        margin-top: -4%;
+        margin-bottom: 2%;
+       
+    }
+.title h1{
+        text-size-adjust: 100%;
+        flex-wrap: wrap;
+        margin-top: 5%;
+        font-size: 25px;
+    }
+.title h5{
+        font-size: 20px;
+    }
+
+
+
+
+nav{
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 3%;
+    border-bottom: 7px solid #f2f2f2 ;
+}
+.links ul{
+    
+    justify-content: space-between;
+}
+.links li{
+    font-size: 27px;
+}
+
+.links a:hover{
+    border-top: none;
+}
+nav a:hover{
+    border-bottom: 7px solid #0065fc ;
+}
+
+
+
+
+/*nav{
+        padding:5% 0% 5% 0%;
+   }
+.links{
+    justify-content: center;
+    padding-bottom: 5% ;
+    width: 100%;
+    border-bottom: solid 5px #f2f2f2;
+   }
+   .links ul{
+       justify-content: center;
+   }
+ .links li{
+     font-size: 25px;
+       align-items: center;
+   }
+.border1 a{
+       border-top: none;
+   }
+   .border2 a{
+    border-top: none;
+}
+.links a:hover{
+    border-bottom: solid 7px #0065fc ;
+    border-top: none;
+}*/
+/*EN-TÊTE SITE partII*/
+ .search i{
+    font-size: 27px;
+    justify-content: flex-start;
+    padding: 2%;
+ }
+.smart_tab{
+        padding: 2% 0 0 0;
+     }
+    .text-form{
+        font-size: 16px;
+    }
+    .submit-form{
+        font-size: 22px;
+        padding: 0 3% 0 3%;
+    }
+    .filter {
+        flex-direction: column;
+        align-items: flex-start;
+        
+    }
+    .filter p{
+        margin-bottom: 2%;
+    }
+    .filter_box{
+        justify-content: flex-start;
+        width: 74%;
+    }
+    .dog i{
+        padding: 6% 7% 6% 7%;
+        vertical-align: middle;
+    }
+    .child i{
+        vertical-align: middle;
+    }
+    .glass i{
+        vertical-align: middle;
+    }
+    .coins i{
+        vertical-align: middle;
+    }
+    
+/*COEUR DES CARTES*/
+
+    .box_2{
+        display: flex;
+        flex-direction:column-reverse;
+        padding: 0;
+    }
+    .box_up{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 1%;
+        margin: 0;
+        background: transparent;
+    }
+    .title_3{
+       
+        display: flex;
+        width: 100%;
+        padding: 0 0 0 2%;
+        margin-bottom: 2%;
+    }
+    .title_3 i{
+        margin: 0 5% 0 0;
+    }
+    .up_block{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;  
+    }
+    .box_up img{
+        width: 340px;
+        height: 150px;
+        padding: 1%;
+        border-radius: 20px 20px 0 0;
+    }
+    .up_1, .up_2, .up_3{
+        display: flex;
+        margin-bottom: 5%;
+    }
+    .up_1 a{
+        display: flex;
+        flex-direction: column;
+        padding: 1% 1% 1% 1%;
+        margin: 1%;
+           
+    }
+    .up_1 h3{
+        font-size: 18px;
+    }
+    .up_1 h4{
+        font-size: 18px;
+        padding-bottom: 0;
+
+    }
+    .up_2 a{
+        display: flex;
+        flex-direction: column;
+        padding: 1% 1% 1% 1%;
+        margin: 1%;
+    
+    }
+    .up_2 h3{
+        font-size: 17.5px;
+    }
+    .up_2 h4{
+        font-size: 18px;
+        padding-bottom: 0;
+    }
+    .up_3 a{
+        display: flex;
+        flex-direction: column;
+        padding: 1% 1% 1% 1%;
+        margin: 1%;
+
+    }
+    .up_3 h3{
+        font-size: 18px;
+
+    }
+    .up_3 h4{
+        font-size: 18px;
+        padding-bottom: 0;
+
+    }
+    .up_text{
+        padding: 0;
+        padding-bottom: 2% ;
+        margin-left: 4%;
+    }
+    .parent{
+        margin: 0;
+    }
+    .box_inn{
+        border-radius:0 ;
+        margin: 0;
+    }
+    .title_2{
+        display: flex;
+        margin-left: 3%;
+    }
+    .parent img{
+        display: flex;
+        width: 30%;
+        height: 150px;
+        object-fit:cover;
+        border-radius: 20px 0 0 20px;  
+    }
+    .inn_text{
+        display: flex;
+        flex-direction: column;
+        margin-left: 2%;
+    }
+    .inn_1{
+        width: 47%;
+        border-radius: 20px;
+        margin: 3% 1% 1% 1%;
+        padding: 0;
+    }
+    .inn_1 a{
+        display: flex;
+        flex-direction: row;
+        padding: 1%;
+    }
+    .inn_1  h4{
+        padding-bottom: 20%;
+    }
+    .star_empty{
+        margin-top: 2%;
+    }
+    .star_full_2{
+        margin-top: 2%;
+    }
+    
+    .link{
+        margin: 1% 0 2% 3%;
+        font-size: 25px;
+    }
+    .title_4{
+        margin: 4% 0 2% 2%;
+    }
+    .activity_1 img{
+        height: 435px;
+    }
+    .activity_4 img{
+        height: 410px;
+    }
+
+    
